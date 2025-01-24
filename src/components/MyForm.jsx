@@ -110,21 +110,25 @@ const MyForm = () => {
               value={formData.activityType}
               onChange={handleChange}
             >
-              <Tooltip
-                value="endurance"
-                title="high-volume exercise (e.g., long distance cycling or running)"
-              >
-                <MenuItem>Endurance</MenuItem>
-              </Tooltip>
-              <Tooltip
-                value="strength"
-                title="Bodybuilding, explosive power, conditioning and relative strength exercise"
-              >
-                <MenuItem>Strength</MenuItem>
-              </Tooltip>
-              <Tooltip value="absolute-strength" title="e.g, Power lifting">
-                <MenuItem>Absolute Strength</MenuItem>
-              </Tooltip>
+              <MenuItem>
+                <ListItemText
+                  primary="Endurance"
+                  secondary="High-volume exercise (e.g., long-distance cycling or
+              running)"
+                />
+              </MenuItem>
+              <MenuItem>
+                <ListItemText
+                  primary="Strength"
+                  secondary="Bodybuilding, explosive power, and conditioning"
+                />
+              </MenuItem>
+              <MenuItem>
+                <ListItemText
+                  primary="Absolute Strength"
+                  secondary="e.g., Powerlifting"
+                />
+              </MenuItem>
             </Select>
           </FormControl>
 
