@@ -1,0 +1,22 @@
+/* Add this to your CSS or a CSS module */
+.custom-field {
+  background-color: #333; /* Field background */
+  color: #fff; /* Field text */
+}
+.custom-field .MuiInputLabel-root {
+  color: #aaa; /* Label color */
+}
+.custom-field .MuiSvgIcon-root {
+  color: #fff; /* Dropdown arrow color */
+}
+.custom-field:hover {
+  background-color: #444; /* Lighter background on hover */
+}
+.custom-field .MuiSelect-root,
+.custom-field .MuiSelect-select,
+.custom-field .MuiFilledInput-input {
+  color: #fff; /* Selected option from dropdown */
+}
+.custom-field .MuiTypography-body2 {
+  color: #aaa; /* secondary text */
+}
